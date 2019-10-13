@@ -2,6 +2,7 @@
 
 ## installation des dépendances
 Installation de mocha
+
 `npm install mocha --global`
 
 Installation des dépendances d'éxécution et de développement

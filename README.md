@@ -22,4 +22,5 @@ Commande pour lancer le serveur
 `npm start`
 
 Vous pouvez alors récupérer un résultat en appelant
+
 `http://localhost:3000/api/words/count?text=my%20text%20with%20words`

@@ -35,6 +35,7 @@ Augmentez la fonctionnalité en comptant les mots dans ces citations :
  - "Tester c'est douter, corriger c'est abdiquer"
  - "Rien n'est codé par hasard"
 
+Nous allons utiliser la méthode TDD  :
 1. Commencez par mettre en place les tests unitaires dans un premier temps. Le code actuel ne permet pas de gérer ces cas là, il faut le faire évoluer.
 2. Faites la modification de code pour prendre en compte c'est citations. Le code écrit répond au besoin. Les tests unitaire sont tous valides.
 3. Le code n'est pas dans un format synthétique et facilement maintenable, on le refactorise. Le code écrit répond au besoin et est lisible et maintenable. Les tests unitaire sont tous valides.
@@ -49,6 +50,6 @@ Augmentez encore la fonctionnalité en comptant les mots dans ces citations :
 
 ## Exercice 4 :
 
-1. Ouvrez le fichier Package.json et trouvez comment utiliser différent _reporter_ mocha.
+1. Ouvrez le fichier Package.json et trouvez comment utiliser différents _reporter_ mocha.
 2. Utilisez aussi la commande permettant de générer un raport de couverture de code par les tests unitaires. Vérifiez que 100% de votre code est couvert. Dans le cas contraire ajoutez des tests ou refactorisez votre code.
-3. Pour les plus avancés d'entre vous, utilisez le fichier de test Jest en installant jest et en lançant la bonne commande. Vous pouvez par exemple modifier le fichier package.json pour définir un raccourcis sur cette commande.
+3. Pour les plus avancés d'entre vous, utilisez le fichier de test Jest en installant jest et en lançant la bonne commande. Vous pouvez par exemple modifier le fichier package.json pour définir un raccourci sur cette commande.

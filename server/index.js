@@ -5,8 +5,9 @@ const app = express()
 app.use('/', express.static('./app'));
 
 // ?text=my%20text%20with%20words
-app.get('/api/words/count/', function (req, res) {
-  res.json({count : words.count(req.query.text) })
+app.get('/api/words/count/', async function (req, res) {
+  const count = await words.count(req.query.text);
+  res.json({count});
 })
 
 app.listen(3000, function () {

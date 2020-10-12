@@ -1,3 +1,3 @@
-exports.count = (text) => {
+exports.count = async (text) => {
   return text.split().length;
 } 

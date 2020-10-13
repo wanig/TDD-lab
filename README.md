@@ -37,7 +37,7 @@ Augmentez la fonctionnalité en comptant les mots dans ces citations :
 
 Nous allons utiliser la méthode TDD  :
 1. Commencez par mettre en place les tests unitaires dans un premier temps. Le code actuel ne permet pas de gérer ces cas là, il faut le faire évoluer.
-2. Faites la modification de code pour prendre en compte c'est citations. Le code écrit répond au besoin. Les tests unitaire sont tous valides.
+2. Faites la modification de code pour prendre en compte ces citations. Le code écrit répond au besoin. Les tests unitaire sont tous valides.
 3. Le code n'est pas dans un format synthétique et facilement maintenable, on le refactorise. Le code écrit répond au besoin et est lisible et maintenable. Les tests unitaire sont tous valides.
 
 ## Exercice 3 :

@@ -51,5 +51,8 @@ Augmentez encore la fonctionnalité en comptant les mots dans ces citations :
 ## Exercice 4 :
 
 1. Ouvrez le fichier Package.json et trouvez comment utiliser différents _reporter_ mocha.
+`npm run test-reporter`
 2. Utilisez aussi la commande permettant de générer un raport de couverture de code par les tests unitaires. Vérifiez que 100% de votre code est couvert. Dans le cas contraire ajoutez des tests ou refactorisez votre code.
+`npm install nyc`
+`npm run test-coverage`
 3. Pour les plus avancés d'entre vous, utilisez le fichier de test Jest en installant jest et en lançant la bonne commande. Vous pouvez par exemple modifier le fichier package.json pour définir un raccourci sur cette commande.
